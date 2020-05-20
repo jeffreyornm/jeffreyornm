@@ -4,7 +4,7 @@
     color: green;
 }
 
-.img-fluid {
+img:first-child {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 25%;
     background-position: center;
@@ -19,4 +19,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: mediumaquamarine;
+    color: white;
 }
