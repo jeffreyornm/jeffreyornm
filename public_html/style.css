@@ -20,8 +20,42 @@ img:first-child {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* Contact Form */
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1rem solid #ccc;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    resize: vertical;
+}
 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 1rem;
+    background-color: #98ff98;
+    padding: 2rem;
+}
+
+h3 {
+    text-align: center;
+}
+/* footer */
 
 footer {
     text-align: center;
