@@ -38,7 +38,7 @@
 </nav>
 
 
-
+<!-- Jumbotron -->
 <div class="container justify-content-center">
         <div class="jumbotron text-center bg-transparent-dark">
             <h1>Hi I'm Jeffrey Klein</h1>
@@ -47,7 +47,7 @@
 </div>
 
 
-
+<!-- Middle Section -->
 <div class="container-fluid">
     <div class="row bg-secondary">
         <div class="col-md-3">
@@ -65,7 +65,7 @@
     </div>
 </div>
 
-
+<!-- Card Deck -->
 <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
@@ -85,10 +85,11 @@
     </div>
 </div>
 
+<!-- Contact Form -->
 <h3>Contact Form</h3>
 
 <div class="container">
-    <form action="/action_page.php">
+    <form action="http://localhost:4200/apis" id="contact" method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -103,23 +104,44 @@
 
         <input type="submit" value="Submit">
     </form>
+    <!-- END CONTACT FORM-->
+
+    <div id="output-area"></div>
 </div>
 
 
+
+<!-- Footer -->
 <footer>
     <p>Jeffrey Klein</p>
-    <a class="btn btn-block btn-social btn-github">
-        <span class="fa fa-github"></span> Github
-    </a>
+        <a class="nav-link" href="https://github.com/jeffreyornm" target="_blank">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">github</span>
+        </a>
+        <a class="nav-link" href="https://www.linkedin.com/in/jeffrey-klein-ornm/" target="_blank">
+            <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">linkedin</span>
+        </a>
 </footer>
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4Wny
-Khv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>`
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-
 Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384
 -wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!-- jQuery Form, Validate, Additional Methods, -->
+<script crossorigin="anonymous"
+        integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
 </body>
 </html>
