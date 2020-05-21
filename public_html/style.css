@@ -1,21 +1,17 @@
 
 body {
     font-family: "Bookman Old Style", monospace;
+    color: lightsalmon;
 }
 
+ body {
+     background-image: url('images/trees-lake.jpeg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+ }
 
-.container-fluid{
-    position: relative;
-    text-align: center;
-    color: green;
-}
 
-img:first-child {
-    max-width: 100%;
-    height: 50%;
-    display: block;
-    margin:auto;
-}
 
 /* Centered text */
 .centered {
@@ -40,9 +36,9 @@ input[type=text], select, textarea {
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 1rem;
     cursor: pointer;
 }
 
@@ -53,7 +49,7 @@ input[type=submit]:hover {
 .container {
     border-radius: 1rem;
     background-color: #98ff98;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 h3 {
