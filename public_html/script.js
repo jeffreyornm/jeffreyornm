@@ -40,6 +40,13 @@ $(document).ready(function () {
         type: "POST",
         url: $("#contact").attr("action"),
         success: function (ajaxOutput) {
+          $("#output-area").css("display", "")
+          $("#output-area").html(ajaxOutput)
+
+          // reset the form if it was successful
+          if($(".alert-success").length >= 1) {
+            $("#contact")[0].reset();
+          }
 
         }
       })
