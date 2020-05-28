@@ -1,7 +1,7 @@
 
 body {
     font-family: "Bookman Old Style", monospace;
-    color: lightsalmon;
+    color: black;
 }
 
  body {
@@ -45,7 +45,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: black;
     padding: 1rem;
     border: none;
     border-radius: 1rem;
