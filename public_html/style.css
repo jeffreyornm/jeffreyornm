@@ -46,7 +46,7 @@ p.big {
 /* Contact Form */
 
 .contact-form {
-    width: 75%;
+    width: 100%;
 }
 
 input[type=text], select, textarea {
