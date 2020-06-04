@@ -34,6 +34,12 @@
                         <span class="sr-only">linkedin</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        <i class="fa fa-male fa-lg" aria-hidden="true"></i>
+                        <span class="sr-only">About Me</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -50,17 +56,18 @@
 
 
 <!-- Middle Section -->
-<div class="container-fluid">
+<div class="container-fluid" id="about">
     <div class="row bg-secondary">
         <div class="col-md-3">
-            <img class="img-fluid p-5" src="images/jeffreyklein1.jpg" alt="Jeffrey Klein">
+            <img class="img-fluid rounded-circle p-5" src="images/jeffreyklein1.jpg" alt="Jeffrey Klein">
         </div>
         <div class="col-md text-left pt-5 font-weight-bold">
-            <p>
+            <h3><strong>About Me</strong></h3>
+            <p class="big">
                 My name is Jeffrey Klein, I am originally from Gresham Oregon and moved down to New mexico last
                 year. I am a FullStack Web Developer working in both the front-end and back-end development. I have an
-                understanding in html, javascript, css, bootstrap, react, react bootstrap, Mysql, Docker,
-                Docker Compose, and express. I attended the CNM Ingenuity Deep dive Boot camp from April to
+                understanding in HTML5, JavaScript, CSS3, BootStrap, React, React BootStrap, MYSQL, Docker,
+                Docker Compose, and Express. I attended the CNM Ingenuity Deep dive Boot camp from April to
                 June of 2020. Due to Covid-19, my class was entirely done virtually through zoom and so, I
                 have experience working remotely. I have also been using Github daily throughout the boot camp
                 and have good grasp of how to use it.
@@ -73,32 +80,34 @@
 <!-- Card Deck -->
 <div class="container">
     <div class="card-deck">
-        <div class="card border-0">
-            <img class="img-fluid rounded-circle card-img-top" src="images/css-challenge.png" alt="Css challenge web page">
+        <div class="card border-1">
+            <img class="img-fluid card-img-top" src="images/css-challenge.png" alt="Css challenge web page">
             <div class="card-body">
-                <h5 class="card-title">Css Challenge</h5>
-                <p class="card-text"> The Css Challenge was the first project I did during the boot camp. The purpose of
-                    the challenge was to create a stylesheet and link it to the html file. Once it was linked to the
-                    html, we had a mock image of what the end goal was. This challenge was a good way to get me immersed
-                    into the ways of using css to change my flat html file.
+                <h5 class="card-title">CSS Challenge</h5>
+                <p class="card-text"> The CSS Challenge was the first project I did during the boot camp. The purpose of
+                    the challenge was to create a stylesheet and link it to the HTML file. Once it was linked to the
+                    HTML, we had a mock image of what the end goal was. This challenge was a good way to get me immersed
+                    into the ways of using CSS to change my flat HTML file.
                 </p>
             </div>
         </div>
-        <div class="card border-0">
-            <img class="img-fluid rounded-circle card-img-top" src="images/javascript-events-challenge.png" alt="JavaScript Events Challenge web page">
+        <div class="card border-1">
+            <img class="img-fluid card-img-top" src="images/javascript-events-challenge.png" alt="JavaScript Events Challenge web page">
             <div class="card-body">
                 <h5 class="card-title">JavaScript Events Challenge</h5>
-                <p class="card-text">Burrowing goby ide bangus trahira; Rasbora trahira garpike
-                    carpsucker.</p>
+                <p class="card-text"> The JavaScript Events Challenge had me work on using JavaScript to make functions
+                that on a click on a button or in my case the paragraph change either the color or font of the paragraph
+                text or replace a word with another word within the paragraph. In this project, I primarily used HTML and
+                JavaScript.</p>
             </div>
         </div>
-        <div class="card border-0">
-            <img class="img-fluid rounded-circle card-img-top" src="images/bootstrap-challenge.png" alt="Bootstrap Challenge web page">
+        <div class="card border-1">
+            <img class="img-fluid card-img-top" src="images/bootstrap-challenge.png" alt="Bootstrap Challenge web page">
             <div class="card-body">
                 <h5 class="card-title">Bootstrap Challenge</h5>
                 <p class="card-text">The Bootstrap Challenge was the second challenge that I did during the boot camp.
                     During this challenge, the goal was to make the web page mobile responsive while also adding in some
-                    html and css. This challenge allowed for some creative changes using css such as making the images
+                    HTML and CSS. This challenge allowed for some creative changes using CSS such as making the images
                     rounded and playing with some native bootstrap styling such as the jumbotron.
                 </p>
             </div>
@@ -109,25 +118,27 @@
 <!-- Contact Form -->
 
 
-<div class="container">
-    <h3>Contact Form</h3>
-    <form action="./apis/" id="contact" method="post">
-        <label for="fname">Full Name</label>
-        <input type="text" id="fname" name="name" placeholder="Your name..">
+<div class="container" >
+    <div class="contact-form">
+        <h3>Contact Form</h3>
+        <form action="./apis/" id="contact" method="post">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
 
 
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your Email..">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your Email..">
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:15rem"></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:15rem"></textarea>
 
-        <div class="g-recaptcha" data-sitekey="6LdOqv8UAAAAAPmqEX_BWER5FBSGEospe8PacaMf"></div>
-        <input type="submit" value="Submit">
-    </form>
-    <!-- END CONTACT FORM-->
+            <div class="g-recaptcha" data-sitekey="6LdOqv8UAAAAAPmqEX_BWER5FBSGEospe8PacaMf"></div>
+            <input type="submit" value="Submit">
+        </form>
+        <!-- END CONTACT FORM-->
 
-    <div id="output-area"></div>
+        <div id="output-area"></div>
+    </div>
 </div>
 
 
