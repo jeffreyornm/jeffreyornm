@@ -1,7 +1,8 @@
+/* Nav page link Scrolling */
 html {
     scroll-behavior: smooth;
 }
-
+/* Body */
 body {
     font-family: "Bookman Old Style", monospace;
     color: black;
@@ -19,7 +20,7 @@ body {
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-
+/* Middle Section Line Spacing */
 p.big {
     line-height: 1.8;
 }
@@ -44,6 +45,10 @@ p.big {
 }
 
 /* Contact Form */
+
+h3 {
+    text-align: center;
+}
 
 .contact-form {
     width: 100%;
@@ -80,14 +85,6 @@ input[type=submit]:hover {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-h3 {
-    text-align: center;
-}
-
-.g-recaptcha {
-
 }
 
 /* footer */
